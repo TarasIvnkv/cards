@@ -2,7 +2,6 @@ cardSuit = [`hearts`, `diamonds`, `spades`, `clubs`];
 cardPicture = [`jack`, `queen`, `king`, `t`]
 cards = [];
 
-
 for(num = 2; num <=10; num++){
     for(suit = 0; suit < cardSuit.length; suit++){
         info = `
